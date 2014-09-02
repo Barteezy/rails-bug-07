@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 20140712080406) do
     t.integer  "task_list_id",                 null: false
     t.string   "description"
     t.date     "due_date"
-    t.boolean  "completed",    default: false, null: false
+    t.boolean  "completed",    default: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
